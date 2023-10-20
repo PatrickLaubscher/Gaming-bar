@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Navbar */
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav img {
+    width: 16%;
+}
+
+nav ul {
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: rgb(241, 27, 27);
+    border-bottom: 1px solid rgb(241, 27, 27);
+    transition-duration: 0.5s;
+}
+
+
+
+.hAccueil {
+    background-image: url("assets/images/baniere.png");
+    background-size: cover;
+}
+
+.hAccueil h1 {
+    color: white;
+    letter-spacing: 8px;
+    font-size: 2.5rem;
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+/* section 1 */
+
+.section1 {
+    background-color: white;
+}
+
+.section1>div {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section1 img {
+    width: 40%;
+}
+
+.section1 article {
+    width: 40%;
+}
+
+.section1 h2 {
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section1 h3 {
+    color: rgb(241, 27, 27);
+    margin: 15px 0;
+}
+
+.btnEscapeG {
+    margin: 25px 0;
+    padding: 10px 20px;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    background-color: rgb(241, 27, 27);
+    border: none;
+}
+
+.btnEscapeG:hover {
+    background-color: rgb(99, 13, 13);
+    transition-duration: 0.5s;
+}
+
+/* section 2 */
+
+.section2 {
+    width: 100%;
+    background-color: rgb(58, 51, 51);
+    margin-top: 20px;
+    padding : 60px 0px;
+}
+
+.section2 h2 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.section2 h3 {
+    color: rgb(58, 51, 51);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.flexBox2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.section2 div:not(.flexBox2, .container) {
+    width: 32%;
+    height: 430px;
+    background-color: rgb(212, 198, 198);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.section2 article {
+    text-align: center;
+}
+
+.section2 img {
+    padding-bottom: 60px;
+    width: 40%;
+}
+
+.imgDice {
+    height: 76%;
+}
+
+.section2 p {
+    color: rgb(58, 51, 51);
+    font-size: 1.1rem;
+    padding-bottom: 20px; 
+}
+
+
+/* section 3 */ 
+
+.section3 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding : 60px 0px;
+}
+
+.section3 h2 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#bannerGallery {
+    width: 40%;
+    height: 100%;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    padding : 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width : 22%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(120%);
+    transition-duration: 0.8s;
+}
+
+/* footer */ 
+
+
+footer {
+    width: 100%;
+    background-color: rgb(58, 51, 51);
+    margin-top: 20px;
+    padding : 40px 0px;
+    color: white;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.flexFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexFooter div {
+    width: 30%;
+}
+
+.flexFooter img {
+    width: 15%;
+}
+
+.socialNet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
